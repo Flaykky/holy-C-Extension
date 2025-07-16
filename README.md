@@ -2,7 +2,7 @@
 Extension for holy C programming language syntax for vs code
 
 ## struct
-
+```text
 holyc-vscode/            # Корень расширения
 ├── .vscodeignore        # Файлы и папки, которые не включать в пакет
 ├── package.json         # Мета-информация и вкладки contributes
@@ -11,4 +11,5 @@ holyc-vscode/            # Корень расширения
 ├── syntaxes/
 │   └── holy c.tmLanguage.json   # TextMate grammar для HolyC
 └── src/
-    └── extension.ts     # Точка входа (пустая, так как у нас только грамматика)
+    └── extension.ts    
+```
