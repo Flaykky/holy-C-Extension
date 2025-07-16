@@ -1,0 +1,42 @@
+{
+  "scopeName": "source.holyc",
+  "name": "HolyC",
+  "fileTypes": ["hc", "HC", "holy"],
+  "patterns": [
+    {
+      "name": "keyword.control.holyc",
+      "match": "\\b(if|else|while|for|return|switch|case|break|continue)\\b"
+    },
+    {
+      "name": "storage.type.holyc",
+      "match": "\\b(U0|U8|U16|U32|U64|I8|I16|I32|I64|F32|F64)\\b"
+    },
+    {
+      "name": "constant.numeric.holyc",
+      "match": "\\b0x[0-9A-Fa-f]+|\\b\\d+\\b"
+    },
+    {
+      "name": "string.quoted.double.holyc",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.holyc",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "comment.line.double-slash.holyc",
+      "begin": "//",
+      "end": "$"
+    },
+    {
+      "name": "comment.block.holyc",
+      "begin": "/\\*",
+      "end": "\\*/"
+    }
+  ],
+  "repository": {},
+  "uuid": "d0f5e8a2-1234-4bcd-9f00-abcdef123456"
+}
