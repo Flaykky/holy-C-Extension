@@ -9,7 +9,7 @@ holyc-vscode/            # root of extension
 ├── tsconfig.json        # TypeScript settings
 ├── language-configuration.json  # syntax 
 ├── syntaxes/
-│   └── holy c.tmLanguage.json   # TextMate grammar для HolyC
+│   └── holy c.tmLanguage.json   # TextMate grammar for HolyC
 └── src/
     └── extension.ts    
 ```
